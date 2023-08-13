@@ -52,7 +52,7 @@ const TrendingCoursesCarousel = () => {
   };
 
   return (
-    <div className="relative max-w-5xl p-5 sm:p-6 overflow-hidden">
+    <div className="relative w-[90vw] p-5 sm:p-6 overflow-hidden">
       <div
         className="flex transition-transform duration-300 ease-in-out"
         style={{
