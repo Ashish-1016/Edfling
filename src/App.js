@@ -19,13 +19,14 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Page18 from "./Pages/Page18";
 import Invoice from "./Pages/Invoice";
+import Page28 from "./Pages/Page28";
 
 
 function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar/>
+        <Navbar />
         <Routes>
           <Route path="/page57" element={<Page57 />} />
           <Route path="/page58" element={<Page58 />} />
@@ -39,13 +40,14 @@ function App() {
           <Route path="/page68" element={<Page68 />} />
           <Route path="/page69" element={<Page69 />} />
           <Route path="/page1" element={<Page1 />} />
-          <Route path="/page26" element={<Page26_27 type={1}/>} />
-          <Route path="/page27" element={<Page26_27 type={2}/>} />
+          <Route path="/page26" element={<Page26_27 type={1} />} />
+          <Route path="/page27" element={<Page26_27 type={2} />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/invoice" element={<Invoice />} />
+          <Route path='/page28' element={<Page28 />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </>
   );
